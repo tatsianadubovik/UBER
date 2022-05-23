@@ -1,0 +1,75 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+nav {
+    height: 51px;
+    background-color: #212121;
+}
+.menu {
+    display: flex;
+    justify-content: space-between; /* выравнивание элементов по горизонтали*/
+    padding: 16px 70px;
+    margin: 0;
+    list-style-type: none; /* нет маркировки в списке */
+}
+.menu .menu_link {
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 15px;
+    text-decoration: none; /* убрать подчеркивание ссылок */
+}
+.menu .menu_link:hover {
+    text-decoration: underline;/* добавить подчеркивание при наведении */
+}
+.menu .menu_item { /* разделитель в меню */
+    border-right: 2px dotted black;
+    padding-right: 28px;
+}
+.subheader {
+    height:84px;
+    background-color: rgba(0,0,0,0.6);
+}
+.subheader .subheader_logo {
+    display: block;
+    max-width: 100%; /* 100% От колонки */
+    margin-top: 0px;
+}
+.subheader .subheader_official {
+    margin-top: 6px;
+    opacity: 0.5;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 400;
+}
+.subheader .subheader_call {
+    margin-top: 19px;
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 12px;
+    text-align: right;
+}
+.subheader .subheader_phone {
+    display: block;
+    margin-top: 8px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 22px;
+    text-align: right;
+    text-transform: uppercase;
+    line-height: 12px;
+  }
+  .subheader .subheader_btn {
+    margin-top: 19px;
+    width: 172px;
+    height: 46px;
+    background-image: linear-gradient(to top, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+    border: none;
+    border-radius: 4px;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    
+  }
